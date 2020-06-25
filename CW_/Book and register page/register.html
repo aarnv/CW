@@ -1,0 +1,152 @@
+ <!DOCTYPE html>
+   <html lang="en" dir="ltr">
+<head>
+
+    <style>
+
+
+* {
+  font-family: 'Poppins', sans-serif;
+}
+
+body{
+  width: 100vw;
+  margin: 0;
+  height:100vh;
+  background-color: rgb(110, 139, 153);
+}
+a { color: rgb(110, 139, 153); }
+
+      #form {
+    border-radius: 25px;
+    background:#FFF;
+    border: 2px solid none;
+    padding: 20px;
+    width: 450px;
+    height: 600px;
+    margin: 0;
+  }
+
+  .content{
+    max-width:fit-content;
+    margin: auto;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    margin: 0;
+    padding: 0;
+    padding-left: 30px;
+    box-sizing: border-box;
+    font-size: 1em !important;
+    display: block;
+  }
+
+  img {
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+    }
+
+.container{
+  max-height: fit-content;
+  max-width: fit-content;
+  width: 500px;
+  clear: both;
+  align-items: center;
+}
+
+.center{
+  position: relative;
+  top: 50px;
+  left: 50px;
+  right: 50px;
+  bottom: 50px;
+}
+
+.font{
+  color: rgb(110, 139, 153);
+}
+
+#form input{
+	background-color:#e6e6e6;
+	display: block;
+	text-align: left;
+	height:60px;
+	width:67%;
+	margin: 20px 0;
+	padding-left: 15px;
+  padding-right: 20px;
+	outline: none;
+	border-radius: 10px;
+	font-size: 15px;
+  border: 0;
+}
+
+#input[type=submit] {
+  background-color: #4CAF50;
+  border: none;
+  color: white;
+  padding: 16px 28px;
+  text-decoration: none;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+button{
+  display: block;
+	border: 0;
+	background-color: rgb(110, 139, 153);	
+	font-size: 1vw;
+	width:7vw;
+	height: 3vw;
+	outline: none;
+	color: white;
+	border-radius: 24px;
+	cursor: pointer;
+}
+
+.centerbutton{
+  display: block;
+  position: relative;
+  top: 50px;
+  left: 150px;
+  right: 50px;
+  bottom: 10vh;
+}
+
+.centerline{
+  display: block;
+  position: relative;
+  top: 50px;
+  left: 100px;
+  right: 250px;
+  bottom: 70px;
+}
+</style>
+    <meta charset="utf-8">
+       <title>Register</title>
+       <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet">
+          <link rel="icon" href="moon_PNG51.png">
+</head>
+
+  <body>
+     <div class="content">
+	    <form id="form" action="#" method="POST">		
+        <img src="Logologo31.png" alt="logo"  width="50%" height="auto">
+<div class="center">
+		<input type="text" placeholder="Email" autocomplete="off" required>
+    <input type="password" name="password" placeholder=" New Password" autocomplete="off">
+    <input type="password" name="confirm password" placeholder="Confirm password" autocomplete="off">
+
+	 </div>
+          <br>
+      
+      <div class="centerbutton font">
+    <button type="submit" name="submit" form = "form">Register</button></div>
+       <div class="centerline font"><p>Already have an account?<a href="index.html"> Login</a></p></div>
+		</form></div>
+
+
+  </body>
+</html>
